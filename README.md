@@ -25,16 +25,27 @@ K-pop은 현재도 성장세를 이어가고 있으며, 앞으로도 그 영향�
 이 데이터는 외국의 reddit이라는 어플의 r/kpop의 게시물의 댓글을 모아둔 것 입니다.
 (https://the-eye.eu/redarcs/)
 
-기본적인 정보 : 데이터 추출중이라 아직 잘 모르겠습니다
+## 기본적인 데이터 정보
+submisson: 게시물의 큰 틀(날짜,id,subreddit,title)등 큰 틀을 가지고 있다.
+
+comments : 게시물의 세부적인 댓글들이 작성되어있다.
 
 ### 2.2 추출한 데이터
+comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)이 작성되어있는
+댓글을 추출한다.
+
+- 데이터명
+
 |date|artist|comment|sebtiment|vader|
 |----|------|---------|------|----|
 |날짜|그룹이름|댓글|---|---|
 
+
+- 활용할 데이터 예시
+
 ### 2.3 추출한 데이터에 대한 탐색적 데이터 분석
 아이돌 이름 및 그룹, 댓글 게시물 날짜, 댓글 내용등 을 분석한다.
-(pandas, matplotlib,json)
+(pandas, matplotlib,pickle)
 
 ## 3. 학습 데이터 구축
 
