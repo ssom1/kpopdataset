@@ -48,7 +48,9 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 (pandas, matplotlib,pickle)
 
 ## 3. 학습 데이터 구축
+![동장화면](https://github.com/ssom1/example/blob/main/Count%20of%20%EA%B8%8D%EB%B6%80%EC%A0%95%20Labels%20(0%20and%201)%20by%20Artist.png)
 
+ㄷ
 ## 4. MobileBERT 학습 결과
 
 ## 5. 느낀점 및 배운점
