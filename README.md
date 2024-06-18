@@ -62,7 +62,12 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 
 
 ## 3. 학습 데이터 구축
-![동장화면](https://github.com/ssom1/example/blob/main/Count%20of%20%EA%B8%8D%EB%B6%80%EC%A0%95%20Labels%20(0%20and%201)%20by%20Artist.png)
+![image](https://github.com/ssom1/kpopdataset/assets/101031955/222a22f2-6af9-416d-8507-ec5b83a7ee52)
+
+![image](https://github.com/ssom1/kpopdataset/assets/101031955/85996933-f81c-40cf-a31a-cfea827ff3c4)
+댓글에서 0은 부정 1은 긍정인걸 알 수 있다
+각 아티스트 별 긍부정을 달고 댓글을 확인 해 볼수 있다.
+
 ## 4. MobileBERT 학습 결과
 
 ## 5. 느낀점 및 배운점
