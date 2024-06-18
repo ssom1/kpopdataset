@@ -47,6 +47,23 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 아이돌 이름 및 그룹, 댓글 게시물 날짜, 댓글 내용등 을 분석한다.
 (pandas, matplotlib,pickle)
 
+-활용 데이터 예시
+
+|-|artist|review|sentiment|
+|----|----|----|----|
+|0|redvelvet|i’m gonna do some for my ults \n\nred velvet -...|0.9937|
+|1|redvelvet|[seventeen - fear era](https:\/\/youtu.be\/jjv...|-0.7717|
+|2|redvelvet|red velvet was robbed but i'm happy to see loo...|0.8847|
+|3|redvelvet|**red velvet**\n\nhuff n puff, red dress, time...|0.9856|
+|4|redvelvet|personally, i didn't think 2019 was a year of ...|0.4404|
+|...|...|...|...|
+|41369|itzy|i still think that itzy songs are obviously ha...|0.9722|
+|41370|blackpink|yg is by far the best of the big companies whe...|0.9803|
+|41371|ohmygirl|oh my girl.\n\nyes, she's indeed|0.4019|
+|41372|blackpink|  it isn't the first time yg has recycled a name...|0.5267|
+|41373|blackpink|blackpink is a fireeeeeeeeeeeeeeeeeeeeeeeeeeee...|0.9922|
+
+
 ## 3. 학습 데이터 구축
 ![동장화면](https://github.com/ssom1/example/blob/main/Count%20of%20%EA%B8%8D%EB%B6%80%EC%A0%95%20Labels%20(0%20and%201)%20by%20Artist.png)
 
