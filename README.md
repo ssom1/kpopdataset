@@ -40,9 +40,6 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 |----|------|---------|------|----|
 |날짜|그룹이름|댓글|---|---|
 
-
-- 활용할 데이터 예시
-
 ### 2.3 추출한 데이터에 대한 탐색적 데이터 분석
 아이돌 이름 및 그룹, 댓글 게시물 날짜, 댓글 내용등 을 분석한다.
 (pandas, matplotlib,pickle)
@@ -66,8 +63,11 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 
 ## 3. 학습 데이터 구축
 ![동장화면](https://github.com/ssom1/example/blob/main/Count%20of%20%EA%B8%8D%EB%B6%80%EC%A0%95%20Labels%20(0%20and%201)%20by%20Artist.png)
-
-ㄷ
 ## 4. MobileBERT 학습 결과
 
 ## 5. 느낀점 및 배운점
+처음으로 원하는 데이터를 가지고와서 직접 구축하니까 힘든일도 많았습니다
+찾다가 reddit이라는 어플에서 옛날 계시물들을 보관해 두는 홈페이지를 찾아서
+"comments"파일과 "submission"파일을 찾아내서 제가 원하는 년도와 원하는 그룹이 언급 되어 있는
+댓글을 찾아서 긍부정을 찾아냈습니다 
+데이터를 찾아내고 정리하는게 생각보다 쉽지 않아서 힘들었지만 데이터 
