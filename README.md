@@ -1,3 +1,5 @@
+<img src="https://github.com/ssom1/example/blob/main/k-pop-idol-center-stage-enveloped-in-a-spotlight-fans-silhouettes-forming-a-heart-shaped-ocean-in-.png" alt="동작확인" width="1000" height="350"/>
+
 # kpopdataset
 
 ## MobileBERT를 활용한 KPOP 리뷰 분석 프로젝트  
@@ -22,7 +24,7 @@ K-pop은 현재도 성장세를 이어가고 있으며, 앞으로도 그 영향�
 
 ## 2. 데이터
 ### 2.1 원시 데이터
-이 데이터는 외국의 reddit이라는 어플의 r/kpop의 게시물의 댓글을 모아둔 것 입니다.
+이 데이터는 외국의 reddit이라는 어플의 r/kpop의 예전 게시물과 그 게시물에 대한 댓글을 모아둔 것 입니다.
 (https://the-eye.eu/redarcs/)
 
 ## 기본적인 데이터 정보
@@ -36,9 +38,9 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 
 - 데이터명
 
-|date|artist|comment|sebtiment|vader|
-|----|------|---------|------|----|
-|날짜|그룹이름|댓글|---|---|
+|artist|comment|sebtiment|
+|------|---------|------|
+|그룹이름|댓글|긍부정예측|
 
 ### 2.3 추출한 데이터에 대한 탐색적 데이터 분석
 아이돌 이름 및 그룹, 댓글 게시물 날짜, 댓글 내용등 을 분석한다.
@@ -65,8 +67,9 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 ![image](https://github.com/ssom1/kpopdataset/assets/101031955/222a22f2-6af9-416d-8507-ec5b83a7ee52)
 
 ![image](https://github.com/ssom1/kpopdataset/assets/101031955/85996933-f81c-40cf-a31a-cfea827ff3c4)
-댓글에서 0은 부정 1은 긍정인걸 알 수 있다
-각 아티스트 별 긍부정을 달고 댓글을 확인 해 볼수 있다.
+
+- 댓글에서 0은 부정 1은 긍정인걸 알 수 있다
+- 각 아티스트 별 긍부정을 달고 댓글을 확인 해 볼수 있다.
 
 ## 4. MobileBERT 학습 결과
 
@@ -75,4 +78,4 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 찾다가 reddit이라는 어플에서 옛날 계시물들을 보관해 두는 홈페이지를 찾아서
 "comments"파일과 "submission"파일을 찾아내서 제가 원하는 년도와 원하는 그룹이 언급 되어 있는
 댓글을 찾아서 긍부정을 찾아냈습니다 
-데이터를 찾아내고 정리하는게 생각보다 쉽지 않아서 힘들었지만 데이터 
+데이터를 찾아내고 정리하는게 생각보다 쉽지 않아서 힘들었지만 데이터를
