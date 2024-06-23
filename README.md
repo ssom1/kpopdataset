@@ -18,7 +18,7 @@ K-pop은 현재도 성장세를 이어가고 있으며, 앞으로도 그 영향�
 
 ### 1.2 kpop시장규모
 
-![동장화면](https://github.com/ssom1/example/blob/main/kpop%20%EC%84%B1%EC%9E%A5.png)
+![alt text](https://github.com/ssom1/example/blob/main/kpop%20%EC%84%B1%EC%9E%A5.png)
 (출처 https://www.romanceip.xyz/kpop2023/) <br>
 위 차트는 써클차트(구 가온차트)에서 집계한 연간 피지컬 앨범 판매량(출고 기준) 추이를 보여줍니다. 이 차트는 국내에서 생산되어 국내 및 해외에 판매된 CD, LP, 테이프 등 물리적 매체의 음반 판매량을 나타냅니다.
 
@@ -74,19 +74,19 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 
 
 ## 3. 학습 데이터 구축
-![image](https://github.com/ssom1/kpopdataset/assets/101031955/222a22f2-6af9-416d-8507-ec5b83a7ee52)
+![alt text](https://github.com/ssom1/kpopdataset/assets/101031955/222a22f2-6af9-416d-8507-ec5b83a7ee52)
 
-![image](https://github.com/ssom1/kpopdataset/assets/101031955/85996933-f81c-40cf-a31a-cfea827ff3c4)
+![alt text](https://github.com/ssom1/kpopdataset/assets/101031955/85996933-f81c-40cf-a31a-cfea827ff3c4)
 
 - 댓글에서 0은 부정 1은 긍정인걸 알 수 있다
 - 각 아티스트 별 긍부정을 달고 댓글을 확인 해 볼수 있다.
 
 ## 4. MobileBERT 학습 결과
-![image](https://github.com/ssom1/kpopdataset/assets/101031955/c0b23378-e513-42fc-8952-355a785af955)
+![alt text](https://github.com/ssom1/kpopdataset/assets/101031955/c0b23378-e513-42fc-8952-355a785af955)
 - 데이터를 추출해서 파이 그림으로 보았을때 긍정: 66% 부정: 16% 중립:18% 가 나왔습니다.<br>
   (중립데이터는 제거 하였습니다.)<br>
   
-![](https://github.com/ssom1/example/blob/main/image.png)<br>
+![alt text](https://github.com/ssom1/example/blob/main/image.png)<br>
 1000건의 데이터를 넣어서 돌려본 결과<br>
 validation accuracy:0.80이 나왔다.
 
