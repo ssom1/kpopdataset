@@ -1,6 +1,6 @@
 <img src="https://github.com/ssom1/example/blob/main/k-pop-idol-center-stage-enveloped-in-a-spotlight-fans-silhouettes-forming-a-heart-shaped-ocean-in-.png" alt="동작확인" width="1000" height="350"/>
 
-# <p align="center" style = "font-size:30"> **kpop dataset** <p>
+# <p align="center" style = "font-size:30"> **🎶 kpop dataset 🎶** <p>
 
 ## MobileBERT를 활용한 KPOP 리뷰 분석 프로젝트  
 <!-- 
