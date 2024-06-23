@@ -82,7 +82,8 @@ comments에서 한국 여자아이돌 그룹(redvelvet,blackpink,itzy,ohmygirl)�
 - 각 아티스트 별 긍부정을 달고 댓글을 확인 해 볼수 있다.
 
 ## 4. MobileBERT 학습 결과
-
+![](https://github.com/ssom1/example/blob/main/image.png)
+1000건의 데이터를 넣어서 돌려본 결과 validation accuracy:0.80이 나왔다.
 ## 5. 느낀점 및 배운점
 - **느낀 점 및 배운 점** <br>
 이번 프로젝트를 통해 서구권에서 한국 여자 아이돌에 대한 반응을 분석하면서 여러가지들을 배울 수 있었습니다.
